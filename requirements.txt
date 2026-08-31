@@ -1,0 +1,15 @@
+# Core scientific computing
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+
+# Machine learning and imbalanced-data methods
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+
+# Quantum machine learning
+pennylane>=0.36
+
+# Notebook execution (optional but recommended for local reproduction)
+jupyterlab>=4.0
+ipykernel>=6.29
