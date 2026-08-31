@@ -31,8 +31,3 @@ Up to five principal components are retained. When fewer than five predictors re
 - **Typhoid:** `Blood Culture`, `Widal Test`, `ESR`, and `WBC Count` are excluded because they are diagnostic or near-deterministic variables for the target used in this study.
 - **Obesity:** `ID` is excluded as an identifier, and `BMI` is excluded because it is definitional for the obesity class label used in the experiment.
 
-## Reproducibility note
-
-The repository should preserve the raw input files used by the experiments whenever redistribution is permitted by the original dataset license. If redistribution is not permitted or the license is unclear, users should download the dataset from the source link above and place it in the `data/` directory using the corresponding filename.
-
-The QS-ENN code performs fold-isolated preprocessing during cross-validation; preprocessed, PCA-transformed, or resampled datasets are therefore not required as primary input files.
